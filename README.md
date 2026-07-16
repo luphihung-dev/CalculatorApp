@@ -16,7 +16,12 @@ A native Android calculator built with Kotlin and the classic View system (XML l
 
 ## Screenshots
 
-_Add screenshots here (e.g. `docs/screenshot-main.png`) once captured from a device or emulator._
+| | |
+|---|---|
+| <img src="docs/screenshots/initial-state.jpg" width="220"><br>**Initial state** | <img src="docs/screenshots/addition.jpg" width="220"><br>**Addition** |
+| <img src="docs/screenshots/subtraction.jpg" width="220"><br>**Subtraction** | <img src="docs/screenshots/multiplication.jpg" width="220"><br>**Multiplication** |
+| <img src="docs/screenshots/division.jpg" width="220"><br>**Division** | <img src="docs/screenshots/empty-validation.jpg" width="220"><br>**Empty input validation** |
+| <img src="docs/screenshots/divide-by-zero.jpg" width="220"><br>**Divide-by-zero validation** | |
 
 ## Tech stack
 
