@@ -60,6 +60,6 @@ app/src/main/
    ./gradlew installDebug
    ```
 
-## Coursework context
+## Logbook context
 
 Submitted for **COMP1786 – Exercise 1**: a two-operand calculator app demonstrating Kotlin fundamentals, Android View-based UI, and resource-driven (theme/style/colour) styling.
