@@ -7,7 +7,7 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.activity.ComponentActivity
 
-class MainActivity : ComponentActivity() {
+class CalculatorActivity : ComponentActivity() {
 
     private lateinit var editNumberOne: EditText
     private lateinit var editNumberTwo: EditText
@@ -46,16 +46,16 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun parseOperands(): Pair<Double, Double>? {
-        val rawOne = editNumberOne.text.toString().trim()
-        val rawTwo = editNumberTwo.text.toString().trim()
+        val rawNumberOne = editNumberOne.text.toString().trim()
+        val rawNumberTwo = editNumberTwo.text.toString().trim()
 
-        if (rawOne.isEmpty() || rawTwo.isEmpty()) {
+        if (rawNumberOne.isEmpty() || rawNumberTwo.isEmpty()) {
             showError(getString(R.string.error_empty_input))
             return null
         }
 
-        val numberOne = rawOne.toDoubleOrNull()
-        val numberTwo = rawTwo.toDoubleOrNull()
+        val numberOne = rawNumberOne.toDoubleOrNull()
+        val numberTwo = rawNumberTwo.toDoubleOrNull()
         if (numberOne == null || numberTwo == null) {
             showError(getString(R.string.error_invalid_number))
             return null
