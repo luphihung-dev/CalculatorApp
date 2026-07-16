@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing scale (8dp base unit) -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <!-- Corner radii -->
+    <dimen name="radius_input">12dp</dimen>
+    <dimen name="radius_button">16dp</dimen>
+    <dimen name="radius_result_card">20dp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="elevation_result_card">3dp</dimen>
+
+    <!-- Stroke widths -->
+    <dimen name="stroke_width_input">1.5dp</dimen>
+    <dimen name="stroke_width_input_focused">2dp</dimen>
+
+    <!-- Component sizing -->
+    <dimen name="height_input">56dp</dimen>
+    <dimen name="height_button">56dp</dimen>
+
+    <!-- Type scale -->
+    <dimen name="text_size_title">22sp</dimen>
+    <dimen name="text_size_label">13sp</dimen>
+    <dimen name="text_size_input">18sp</dimen>
+    <dimen name="text_size_button">18sp</dimen>
+    <dimen name="text_size_result_label">13sp</dimen>
+    <dimen name="text_size_result_value">36sp</dimen>
+    <dimen name="text_size_error">13sp</dimen>
+</resources>

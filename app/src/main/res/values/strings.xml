@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CalculatorApp</string>
+
+    <string name="title_calculator">Calculator</string>
+
+    <string name="label_number_one">First number</string>
+    <string name="label_number_two">Second number</string>
+    <string name="hint_number">Enter a number</string>
+
+    <string name="button_add">+</string>
+    <string name="button_subtract">−</string>
+    <string name="button_multiply">×</string>
+    <string name="button_divide">÷</string>
+
+    <string name="label_result">Result</string>
+    <string name="result_placeholder">0</string>
+    <string name="result_error_placeholder">—</string>
+
+    <string name="error_empty_input">Please enter both numbers.</string>
+    <string name="error_invalid_number">Please enter valid numbers.</string>
+    <string name="error_divide_by_zero">Cannot divide by zero.</string>
+</resources>

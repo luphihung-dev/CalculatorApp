@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CalculatorApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/color_primary</item>
+        <item name="android:colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="android:colorAccent">@color/color_primary</item>
+        <item name="android:windowBackground">@color/color_background</item>
+        <item name="android:textColorPrimary">@color/color_text_primary</item>
+        <item name="android:textColorSecondary">@color/color_text_secondary</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="ScreenTitle">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="FieldLabel">
+        <item name="android:textSize">@dimen/text_size_label</item>
+        <item name="android:textColor">@color/color_text_secondary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.03</item>
+    </style>
+
+    <style name="InputField">
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:minHeight">@dimen/height_input</item>
+        <item name="android:paddingStart">@dimen/spacing_md</item>
+        <item name="android:paddingEnd">@dimen/spacing_md</item>
+        <item name="android:textSize">@dimen/text_size_input</item>
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="OperatorButton">
+        <item name="android:minHeight">@dimen/height_button</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:textSize">@dimen/text_size_button</item>
+        <item name="android:textColor">@color/color_on_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="OperatorButton.Indigo">
+        <item name="android:background">@drawable/bg_button_indigo</item>
+    </style>
+
+    <style name="OperatorButton.Sky">
+        <item name="android:background">@drawable/bg_button_sky</item>
+    </style>
+
+    <style name="ResultCard">
+        <item name="android:background">@drawable/bg_result_card</item>
+        <item name="android:padding">@dimen/spacing_lg</item>
+        <item name="android:elevation">@dimen/elevation_result_card</item>
+    </style>
+
+    <style name="ResultLabel">
+        <item name="android:textSize">@dimen/text_size_result_label</item>
+        <item name="android:textColor">@color/color_text_secondary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.03</item>
+    </style>
+
+    <style name="ResultValue">
+        <item name="android:textSize">@dimen/text_size_result_value</item>
+        <item name="android:textColor">@color/color_result_value</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="ErrorText">
+        <item name="android:textSize">@dimen/text_size_error</item>
+        <item name="android:textColor">@color/color_error</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+</resources>

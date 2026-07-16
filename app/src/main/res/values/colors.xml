@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Surfaces -->
+    <color name="color_background">#F4F6FB</color>
+    <color name="color_surface">#FFFFFF</color>
+    <color name="color_surface_alt">#EEF1FA</color>
+
+    <!-- Brand -->
+    <color name="color_primary">#4F46E5</color>
+    <color name="color_primary_dark">#4338CA</color>
+    <color name="color_on_primary">#FFFFFF</color>
+
+    <!-- Operator buttons (checkerboard pairing across the 2x2 grid) -->
+    <color name="color_operator_indigo">#4F46E5</color>
+    <color name="color_operator_indigo_pressed">#4338CA</color>
+    <color name="color_operator_sky">#0EA5E9</color>
+    <color name="color_operator_sky_pressed">#0284C7</color>
+
+    <!-- Text -->
+    <color name="color_text_primary">#1E293B</color>
+    <color name="color_text_secondary">#64748B</color>
+    <color name="color_text_hint">#94A3B8</color>
+
+    <!-- Borders -->
+    <color name="color_border">#E2E8F0</color>
+    <color name="color_border_focused">#4F46E5</color>
+
+    <!-- Feedback -->
+    <color name="color_error">#DC2626</color>
+    <color name="color_result_value">#4338CA</color>
+</resources>
