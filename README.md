@@ -1,4 +1,8 @@
 # CalculatorApp
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
+![Min SDK](https://img.shields.io/badge/minSdk-24-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 A native Android calculator built with Kotlin and the classic View system (XML layouts) as part of **COMP1786 Exercise 1**. Takes two operands and performs addition, subtraction, multiplication, or division, with input validation and a fully theme-driven UI.
 
@@ -12,7 +16,12 @@ A native Android calculator built with Kotlin and the classic View system (XML l
 
 ## Screenshots
 
-_Add screenshots here (e.g. `docs/screenshot-main.png`) once captured from a device or emulator._
+| | |
+|---|---|
+| <img src="docs/screenshots/initial-state.jpg" width="220"><br>**Initial state** | <img src="docs/screenshots/addition.jpg" width="220"><br>**Addition** |
+| <img src="docs/screenshots/subtraction.jpg" width="220"><br>**Subtraction** | <img src="docs/screenshots/multiplication.jpg" width="220"><br>**Multiplication** |
+| <img src="docs/screenshots/division.jpg" width="220"><br>**Division** | <img src="docs/screenshots/empty-validation.jpg" width="220"><br>**Empty input validation** |
+| <img src="docs/screenshots/divide-by-zero.jpg" width="220"><br>**Divide-by-zero validation** | |
 
 ## Tech stack
 
@@ -51,6 +60,6 @@ app/src/main/
    ./gradlew installDebug
    ```
 
-## Coursework context
+## Logbook context
 
 Submitted for **COMP1786 – Exercise 1**: a two-operand calculator app demonstrating Kotlin fundamentals, Android View-based UI, and resource-driven (theme/style/colour) styling.
