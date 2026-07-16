@@ -1,4 +1,8 @@
 # CalculatorApp
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
+![Min SDK](https://img.shields.io/badge/minSdk-24-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 A native Android calculator built with Kotlin and the classic View system (XML layouts) as part of **COMP1786 Exercise 1**. Takes two operands and performs addition, subtraction, multiplication, or division, with input validation and a fully theme-driven UI.
 
